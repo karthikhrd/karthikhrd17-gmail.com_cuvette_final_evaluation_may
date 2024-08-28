@@ -16,7 +16,7 @@ const QuizAnalysis = () => {
       if (id) {
         try {
           const response = await axios.get(
-            `https://quiz-project-isyv.onrender.com/api/quiz/getaquiz/${id}`
+            `https://quizzie-app-0bl5.onrender.com/api/quiz/getaquiz/${id}`
           );
           if (response.status === 200) {
             const data = response.data

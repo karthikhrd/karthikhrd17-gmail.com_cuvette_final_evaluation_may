@@ -27,7 +27,7 @@ const QuestionsPopup = ({
         if (editId) {
           try {
             const response = await axios.get(
-              `https://quiz-project-isyv.onrender.com/api/quiz/getaquiz/${editId}`
+              `https://quizzie-app-0bl5.onrender.com/api/quiz/getaquiz/${editId}`
             );
             if (response.status === 200) {
               const data = response.data;
@@ -238,7 +238,7 @@ const QuestionsPopup = ({
 
     try {
       const response = await axios.post(
-        "https://quiz-project-isyv.onrender.com/api/quiz/createquiz",
+        "https://quizzie-app-0bl5.onrender.com/api/quiz/createquiz",
         quizData,
         {
           headers: {
@@ -297,7 +297,7 @@ const QuestionsPopup = ({
 
     try {
       const response = await axios.patch(
-        `https://quiz-project-isyv.onrender.com/api/quiz/editquiz/${editId}`,
+        `https://quizzie-app-0bl5.onrender.com/api/quiz/editquiz/${editId}`,
         quizData,
         {
           headers: {

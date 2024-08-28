@@ -28,7 +28,7 @@ const Login = () => {
     try {
       setisLoading(true);
       const response = await axios.post(
-        "https://quiz-project-isyv.onrender.com/api/auth/login",
+        "https://quizzie-app-0bl5.onrender.com/api/auth/login",
         formData
       );
       if (response.status === 200) {
