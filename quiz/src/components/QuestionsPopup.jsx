@@ -263,7 +263,7 @@ const QuestionsPopup = ({
         setcreatequestionsPopup(false);
         setcreatequizPopup(false);
         setlinkId(
-          `http://localhost:5173/quizexam/${response.data.newquiz._id}`
+          `https://quizzie-app-4623f.web.app/${response.data.newquiz._id}`
         );
       }
     } catch (error) {
@@ -323,7 +323,7 @@ const QuestionsPopup = ({
         setcreatequestionsPopup(false);
         setsharePopup(true);
         setlinkId(
-          `http://localhost:5173/quizexam/${response.data.editedquiz._id}`
+          `https://quizzie-app-4623f.web.app/quizexam/${response.data.editedquiz._id}`
         );
       }
     } catch (error) {
