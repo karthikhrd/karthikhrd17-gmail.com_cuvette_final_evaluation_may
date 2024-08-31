@@ -263,7 +263,8 @@ const QuestionsPopup = ({
         setcreatequestionsPopup(false);
         setcreatequizPopup(false);
         setlinkId(
-          `https://quizzie-app-4623f.web.app/${response.data.newquiz._id}`
+          // `https://quizzie-app-4623f.web.app/${response.data.newquiz._id}`
+          `https://quizzie-app-4623f.web.app/quizexam/${response.data.newquiz._id}`
         );
       }
     } catch (error) {
